@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/*font-family: 'Bebas Neue', cursive;*/
+
+
+
+
+
+body {
+    background-color: #e2baf0;
+}
+
+.container {
+    position: relative;
+    top: 200px;
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 550px;
+    background-color: white;
+    border: 2px solid rgba(189, 0, 255, 0.5);
+    border-radius: 10px;
+}
+.calculatorname {
+    position: relative;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 35px;
+    color: rgba(189, 0, 255, 0.5);
+}
+.firstinp {
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: rgba(189, 0, 255, 0.5);
+    width: 330px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid rgba(189, 0, 255, 0.5);
+    border-radius: 10px;
+    position: relative;
+    top: 10px;
+    transition: 0.2s;
+}
+
+.firstinp::placeholder {
+    color: rgba(189, 0, 255, 0.5);
+    position: relative;
+}
+.firstinp:focus {
+    outline: 0;
+    background-color: rgba(189, 0, 255, 0.5);
+    color: white;
+    
+}
+
+.plus {
+    position: relative;
+    top: -35px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 60px;
+    color: rgba(189, 0, 255, 0.5);
+}
+
+.secondinp {
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: rgba(189, 0, 255, 0.5);
+    width: 330px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid rgba(189, 0, 255, 0.5);
+    border-radius: 10px;
+    position: relative;
+    top: -85px;
+    transition: 0.2s;
+}
+
+.secondinp::placeholder {
+    color: rgba(189, 0, 255, 0.5);
+    position: relative;
+}
+.secondinp:focus {
+    outline: 0;
+    background-color: rgba(189, 0, 255, 0.5);
+    color: white;
+}
+
+.calculate {
+    position: relative;
+    top: -40px;
+    width: 200px;
+    height: 50px;
+    text-align: center;
+    border: 2px solid rgba(189, 0, 255, 0.5);
+    border-radius: 10px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: rgba(189, 0, 255, 0.5);
+    transition: 0.2s;
+}
+.calculate:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    background-color: rgba(189, 0, 255, 0.5);
+    color: white;
+}
+
+.suminp {
+    background-color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 30px;
+    color: rgba(189, 0, 255, 0.5);
+    width: 330px;
+    height: 45px;
+    text-align: center;
+    border: 2px solid rgba(189, 0, 255, 0.5);
+    border-radius: 10px;
+    position: relative;
+    top: 0px;
+    transition: 0.2s;
+}
+
+.suminp::placeholder {
+    color: rgba(189, 0, 255, 0.5);
+    position: relative;
+}
+.suminp:focus {
+    outline: 0;
+    background-color: rgba(189, 0, 255, 0.5);
+    color: white;
+}
